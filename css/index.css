@@ -33,7 +33,6 @@ body {
     transition: .2s;
     /* display: flex;
     flex-direction: column; */
-
     /* volverlo a display flex*/
     /* Grid para la distribucion del body */
     display: grid;
@@ -47,7 +46,6 @@ body {
 }
 
 /* HEADER */
-/* Se repite en todas las paginas */
 header {
     display: flex;
     flex-direction: column;
@@ -378,6 +376,7 @@ video {
     padding: 2em 0em;
 }
 
+/* correccion de formulario bootstrap */
 .row {
     display: flex;
     flex-direction: column;
@@ -401,14 +400,7 @@ video {
     border-color: #012340aa;
 }
 
-/* #formulario>label,
-input {
-    display: block;
-    color: var(--secondary);
-    font-family: var(--font-secondary);
-    text-align: center;
-    margin: .5em auto;
-} */
+/* correccion de formulario bootstrap */
 
 .muestrario {
     width: 50em;
@@ -519,7 +511,7 @@ footer ul {
         display: block;
         /*correccion para que no desaparezca el navbar antes de 480px*/
     }
-
+        /* cambiar -lg para modificar el cambio de tamaño*/
     .navbar-expand-lg .navbar-toggler {
         display: none;
     }
@@ -888,8 +880,8 @@ footer ul {
         max-width: 300px;
         margin: auto;
     }
-    
-    #imagen_perfil{
+
+    #imagen_perfil {
         margin: auto 1em;
     }
 
